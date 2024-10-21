@@ -4,63 +4,58 @@ body {
     padding: 0;
 }
 
-/* Fondo blanco y padding en el main */
 .main-background {
-    background-color: white; /* Fondo blanco */
-    padding: 20px; /* Padding alrededor del main */
+    background-color: white;
+    padding: 20px;
 }
 
-/* Estilos para las secciones */
 section {
-    padding: 20px; /* Espaciado alrededor de las secciones */
-    margin-bottom: 20px; /* Espaciado entre secciones */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    text-align: center; /* Centra el texto dentro de la sección */
+    padding: 20px;
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; 
 }
 
 .intro {
-    background-color: #f9f9f9; /* Fondo gris claro para la sección de introducción */
+    background-color: #f9f9f9; 
 }
 
 .features {
-    background-color: #e9f5e9; /* Fondo verde claro para características */
+    background-color: #e9f5e9; 
 }
 
 .about-us {
-    background-color: #f0f0f0; /* Fondo gris para quiénes somos */
+    background-color: #f0f0f0; 
 }
 
 .support {
-    background-color: #e3f2fd; /* Fondo azul claro para soporte técnico */
+    background-color: #e3f2fd;
 }
 
 .section-nav {    
-    background-color: #27293e; /* Color de fondo de la barra */
-    color: #fc0!important; /* Color del texto */
-    padding: 10px; /* Padding para la barra */
-    border-radius: 8px; /* Bordes redondeados */
-    margin-bottom: 10px; /* Espaciado inferior */
-    animation: fadeIn 0.5s; /* Animación de aparición */
-    text-align: center; /* Centra el texto de la barra de navegación */
+    background-color: #27293e; 
+    color: #fc0!important;
+    padding: 10px; 
+    border-radius: 8px; 
+    margin-bottom: 10px; 
+    animation: fadeIn 0.5s; 
+    text-align: center; 
 }
 
-/* Animación de entrada */
 @keyframes fadeIn {
     from { opacity: 0; }
     to { opacity: 1; }
 }
 
-/* Estilo del encabezado */
 h1 {
-    color: #27293e; /* Color del encabezado */
+    color: #27293e; 
 }
 
 h2 {
-    color: #fc0!important; /* Color del encabezado */
+    color: #fc0!important; 
 }
 
-/* Estilos de la navegación */
 nav {
     background-color: #27293e;
     padding: 15px;
@@ -89,27 +84,25 @@ nav ul li a:hover {
     color: #fc0!important;
 }
 
-/* Encabezado */
 header {
     text-align: center;
-    padding: 10px; /* Ajusta el padding para reducir la altura */
+    padding: 10px; 
     color: #27293e;
-    background-color: white; /* Color de fondo del encabezado */
-    display: flex; /* Usar flexbox para centrar contenido */
-    flex-direction: column; /* Apilar elementos verticalmente */
-    justify-content: center; /* Centrar verticalmente */
+    background-color: white; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
 }
 
-/* Botón de descarga */
 .download-button {
     background-color: #fc0!important;
     color: white;
     padding: 15px 30px;
     border: none;
-    text-decoration: none; /* Evita subrayado en el enlace */
+    text-decoration: none;
     cursor: pointer;
-    display: inline-block; /* Para que tenga el tamaño adecuado */
-    margin-top: 10px; /* Espacio entre el texto y el botón */
+    display: inline-block; 
+    margin-top: 10px; 
     transition: background-color 0.3s;
 }
 
@@ -117,7 +110,6 @@ header {
     background-color: #45a049;
 }
 
-/* Pie de página */
 footer {
     background-color: #333;
     color: white;
