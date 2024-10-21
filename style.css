@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Fondo blanco y padding en el main */
+.main-background {
+    background-color: white; /* Fondo blanco */
+    padding: 20px; /* Padding alrededor del main */
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px; /* Espaciado alrededor de las secciones */
+    margin-bottom: 20px; /* Espaciado entre secciones */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    text-align: center; /* Centra el texto dentro de la sección */
+}
+
+.intro {
+    background-color: #f9f9f9; /* Fondo gris claro para la sección de introducción */
+}
+
+.features {
+    background-color: #e9f5e9; /* Fondo verde claro para características */
+}
+
+.about-us {
+    background-color: #f0f0f0; /* Fondo gris para quiénes somos */
+}
+
+.support {
+    background-color: #e3f2fd; /* Fondo azul claro para soporte técnico */
+}
+
+.section-nav {    
+    background-color: #27293e; /* Color de fondo de la barra */
+    color: #fc0!important; /* Color del texto */
+    padding: 10px; /* Padding para la barra */
+    border-radius: 8px; /* Bordes redondeados */
+    margin-bottom: 10px; /* Espaciado inferior */
+    animation: fadeIn 0.5s; /* Animación de aparición */
+    text-align: center; /* Centra el texto de la barra de navegación */
+}
+
+/* Animación de entrada */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Estilo del encabezado */
+h1 {
+    color: #27293e; /* Color del encabezado */
+}
+
+h2 {
+    color: #fc0!important; /* Color del encabezado */
+}
+
+/* Estilos de la navegación */
+nav {
+    background-color: #27293e;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fc0!important;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    padding: 10px; /* Ajusta el padding para reducir la altura */
+    color: #27293e;
+    background-color: white; /* Color de fondo del encabezado */
+    display: flex; /* Usar flexbox para centrar contenido */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    justify-content: center; /* Centrar verticalmente */
+}
+
+/* Botón de descarga */
+.download-button {
+    background-color: #fc0!important;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    text-decoration: none; /* Evita subrayado en el enlace */
+    cursor: pointer;
+    display: inline-block; /* Para que tenga el tamaño adecuado */
+    margin-top: 10px; /* Espacio entre el texto y el botón */
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #45a049;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
